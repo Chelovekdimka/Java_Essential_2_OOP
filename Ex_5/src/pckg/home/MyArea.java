@@ -7,7 +7,7 @@
 package pckg.home;
 
 public class MyArea {
-    final static double PI = 3.14;
+    private final static double PI = 3.14;
     public static double areaOfCircle (double radius){
         return PI*radius*radius;
     }
